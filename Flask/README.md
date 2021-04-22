@@ -19,6 +19,10 @@ http://127.0.0.1:5000/
 
 ![image](https://user-images.githubusercontent.com/60090421/115691990-2fe8f300-a37c-11eb-8c27-ed8d71f87c33.png)
 
+# CONNECTION TO INSTANCE
+
+![image](https://user-images.githubusercontent.com/60090421/115735624-40af5e00-a3a8-11eb-896c-60617359ec98.png)
+
 # SECURITY GROUP TO ALLOW INCOMING TRAFFIC ONLY THROUGH 8085
 
 ![image](https://user-images.githubusercontent.com/60090421/115692111-5018b200-a37c-11eb-97a5-e20a0f7e9ed6.png)
