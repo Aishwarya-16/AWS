@@ -29,6 +29,8 @@ http://127.0.0.1:5000/
 
 ![image](https://user-images.githubusercontent.com/60090421/115735624-40af5e00-a3a8-11eb-896c-60617359ec98.png)
 
+Connection has been made to the Instance using the public DNS via the Ubuntu app
+
 ![image](https://user-images.githubusercontent.com/60090421/116125745-825f4200-a6e3-11eb-8a8e-5a9f5c07e85b.png)
 
  ubuntu@ip-172-31-16-71:~$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
