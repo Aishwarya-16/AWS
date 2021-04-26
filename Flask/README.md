@@ -21,13 +21,56 @@ http://127.0.0.1:5000/
 
 # CONNECTION TO INSTANCE
 
+(base) tiger0531@tiger0531:~$ cp /mnt/c/Users/aishwarya.somasu/Downloads/Aishwarya.pem .
+
+ Grant Permission
+
+(base) tiger0531@tiger0531:~$ chmod 400 Aishwarya.pem
+
 ![image](https://user-images.githubusercontent.com/60090421/115735624-40af5e00-a3a8-11eb-896c-60617359ec98.png)
+
+![image](https://user-images.githubusercontent.com/60090421/116125745-825f4200-a6e3-11eb-8a8e-5a9f5c07e85b.png)
+
+ ubuntu@ip-172-31-16-71:~$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+ ubuntu@ip-172-31-16-71:~$ sudo apt install unzip
+
+ ubuntu@ip-172-31-16-71:~$ unzip awscliv2.zip
+
+ ubuntu@ip-172-31-16-71:~$ sudo ./aws/install
+
+# AWS Version
+
+![image](https://user-images.githubusercontent.com/60090421/116126086-dbc77100-a6e3-11eb-8a84-ab3733269408.png)
+
+# AWS CREDENTAILS CONFIGURATION
+
+![image](https://user-images.githubusercontent.com/60090421/116126148-eb46ba00-a6e3-11eb-9645-76c6d41f3b65.png)
+
+# CREATING App.py File using NANO
+
+![image](https://user-images.githubusercontent.com/60090421/116126248-0adde280-a6e4-11eb-9cc3-7d8278b3bcbb.png)
 
 # SECURITY GROUP TO ALLOW INCOMING TRAFFIC ONLY THROUGH 8085
 
 ![image](https://user-images.githubusercontent.com/60090421/115692111-5018b200-a37c-11eb-97a5-e20a0f7e9ed6.png)
 
+# INSTALLATION OF REQUIRED PACKAGES
+
+ ubuntu@ip-172-31-16-71:~$ sudo apt-get update
+
+ ubuntu@ip-172-31-16-71:~$ sudo apt-get install python3
+
+ ubuntu@ip-172-31-16-71:~$ sudo apt-get install python3-pip
+
+ ubuntu@ip-172-31-16-71:~$ sudo pip3 install flask
+
+ ubuntu@ip-172-31-16-71:~$ sudo pip3 install boto3
+
 # ACCESING THE EC2 DEPLOYED FLASK APP VIA EC2 PUBLIC URL AT PORT 8085
+
+![image](https://user-images.githubusercontent.com/60090421/116126849-c0109a80-a6e4-11eb-9130-e218c04ef488.png)
+
 http://52.14.228.251:8085
 
 ![image](https://user-images.githubusercontent.com/60090421/115692874-011f4c80-a37d-11eb-98e9-9791e1b1a784.png)
