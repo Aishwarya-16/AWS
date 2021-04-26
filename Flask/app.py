@@ -27,7 +27,7 @@ def list_files(dir):
     AWS_S3_REGION_NAME='us-east-2'
     
     file_list=[]
-    session = Session(aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
+    session = boto3.Session()
     s3 = session.resource('s3')
     for obj in s3.Bucket(AWS_STORAGE_BUCKET_NAME).objects.filter(Prefix=dir).all():
         print(obj.key)
@@ -38,4 +38,4 @@ def list_files(dir):
     return file_list
 
 if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0',port=8085)
+    app.run(debug=False,host='0.0.0.0',port=8085)
