@@ -22,9 +22,8 @@ def index():
 
 # Function to get the filenames in the folders of AWS Bucket
 def list_files(dir):
-    # AWS Credentials
-    AWS_STORAGE_BUCKET_NAME='1767-bucket'
-    AWS_S3_REGION_NAME='us-east-2'
+    # Get Bucket Name using boto3
+    AWS_STORAGE_BUCKET_NAME = boto3.client('s3').list_buckets()['Buckets'][0]['Name']
     
     file_list=[]
     session = boto3.Session()
