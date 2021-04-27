@@ -89,3 +89,7 @@ Bills
 Free Tier Usage
 
 ![image](https://user-images.githubusercontent.com/60090421/115694203-44c68600-a37e-11eb-9907-adf8447113c1.png)
+
+Grouping by Services and Tags
+
+![image](https://user-images.githubusercontent.com/60090421/116261786-9c595d00-a795-11eb-9c60-c777e1e3d152.png)
