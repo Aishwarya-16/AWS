@@ -39,15 +39,20 @@ Processed Train And Test Dataset created inside S3 Bucket
 
 ### Billing:
 
-![image](https://user-images.githubusercontent.com/60090421/118872173-e69dac00-b905-11eb-97f4-45682cf044a8.png)
+![image](https://user-images.githubusercontent.com/60090421/118934857-770cd880-b968-11eb-8844-253b15aff4b4.png)
+
+### Services:
+
+![image](https://user-images.githubusercontent.com/60090421/118935289-ff8b7900-b968-11eb-886b-54a8a6e51e15.png)
  
 ### Free Tier Usage:
 
-![image](https://user-images.githubusercontent.com/60090421/118872307-0f25a600-b906-11eb-973f-10c1abadf0df.png)
+![image](https://user-images.githubusercontent.com/60090421/118935016-ac192b00-b968-11eb-9327-eb2b6e236cb3.png)
 
 ### Daily Usage:
 
-![image](https://user-images.githubusercontent.com/60090421/118873111-fbc70a80-b906-11eb-8767-8a1e82d458b7.png)
+![image](https://user-images.githubusercontent.com/60090421/118935706-71fc5900-b969-11eb-80bc-312d7edfb48a.png)
+
 
 
 
