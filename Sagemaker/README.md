@@ -39,7 +39,7 @@ Processed Train And Test Dataset created inside S3 Bucket
 
 ### Billing:
 
-![image](https://user-images.githubusercontent.com/60090421/118934857-770cd880-b968-11eb-8844-253b15aff4b4.png)
+![image](https://user-images.githubusercontent.com/60090421/118936832-8725b780-b96a-11eb-9873-a4a301b9e7e7.png)
 
 ### Services:
 
